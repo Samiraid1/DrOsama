@@ -1,0 +1,21 @@
+.background {
+
+    color : rgba(39, 42, 45, 0.634)
+}
+
+.header {
+  border-bottom: 2px solid #096B68;
+  color: #333436d8;
+  padding: 20px;
+}
+
+.space {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section {
+  scroll-margin-top: 80px; /* adjust based on your navbar height */
+}
+
+

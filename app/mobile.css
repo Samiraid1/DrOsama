@@ -1,0 +1,74 @@
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Ensure touch targets are at least 44px */
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    min-height: 44px;
+  }
+
+  /* Improve text readability on mobile */
+  body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* Prevent horizontal scroll */
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Optimize video for mobile */
+  video {
+    object-position: center center;
+  }
+
+  /* Better spacing for mobile cards */
+  .mobile-card-spacing {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Mobile-friendly form inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  select,
+  textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+    padding: 12px;
+  }
+
+  /* Sticky navigation optimization */
+  .mobile-nav {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  /* Touch-friendly social icons */
+  .social-icon {
+    padding: 8px;
+    margin: 4px;
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .tablet-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* Large mobile landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero-mobile-landscape {
+    min-height: 100vh;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+}
