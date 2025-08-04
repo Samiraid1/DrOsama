@@ -286,7 +286,7 @@ export default function DentistWebsite() {
   return (
     <div className="flex items-center justify-center h-screen bg-[#096B68]">
   <img
-    src="/white logo.png"
+    src="/White logo.png"
     alt="Loading..."
     className="w-40 h-auto animate-pulse"
   />

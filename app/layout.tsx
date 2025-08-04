@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Created By Sami',
   generator: 'dev',
    icons: {
-    icon: '/syrings.png',
+    icon: '/White logo.png',
   },
 }
 
