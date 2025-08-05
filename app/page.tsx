@@ -996,7 +996,7 @@ export default function DentistWebsite() {
                     className="w-full bg-[#096B68] hover:bg-[#003434] h-10 text-sm"
                     size="sm"
                   >
-                    <a href="tel:+1234567890">
+                    <a href="tel:+962798283322">
                       Book Appointment
                     </a>
                   </Button>
